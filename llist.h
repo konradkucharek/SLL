@@ -1,4 +1,3 @@
-
 // =======================================================
 // Program: Singly Linked List
 // Name: Konrad Kucharek
