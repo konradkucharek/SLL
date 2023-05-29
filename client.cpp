@@ -1,4 +1,3 @@
-
 //=========================================================
 // Program : Singly Linked List
 // Your name: Konrad Kucharek
@@ -7,7 +6,6 @@
 //===========================================================
 
 using namespace std;
-
 #include <iostream>
 #include "llist.h"
 
