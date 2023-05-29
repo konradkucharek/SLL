@@ -1,4 +1,3 @@
-
 // ====================================================
 // Program : Singly Linked List
 // Your name: Konrad Kucharek
@@ -7,7 +6,6 @@
 //=====================================================
 
 using namespace std;
-
 #include<iostream>
 #include"llist.h" 
 
@@ -19,7 +17,6 @@ llist::llist()
  Front = Rear = NULL;
  Count = 0; 
 }
-
 
 // Destructor  
 llist::~llist()
@@ -58,7 +55,6 @@ void llist::displayAll()
     else 
 		cout << "empty]" << endl;
 }
-
 
 void llist::addRear(el_t NewNum) 
 /*2 cases:
@@ -155,6 +151,7 @@ void llist::deleteFront(el_t& OldNum)
 		}
 	}
 }
+
 void llist::deleteRear(el_t& OldNum)
  /*
  3 cases:
